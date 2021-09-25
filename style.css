@@ -91,6 +91,19 @@ li:nth-child(3){
   position: absolute;
   top:0;
   left: 0;
+  width: 50%;
+  height: 50%;
+}
+.iframe-container2{
+  position: relative;
   width: 100%;
-  height: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container2 iframe{
+  position: absolute;
+  top:0;
+  right:0 ;
+  width: 50%;
+  height: 50%;
 }
